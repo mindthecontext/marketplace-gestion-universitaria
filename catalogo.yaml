@@ -1,0 +1,16 @@
+# Qué es este catálogo y a quién sirve.
+#
+# ES UN ÍNDICE DELGADO: no contiene ningún plugin, los referencia por git-subdir contra el
+# repositorio público de cada paquete, fijando un `ref`. Nada de lo que hay aquí se edita a
+# mano — `catalogos.py` lo deriva de los descriptores de los saberes.
+#
+# Publico, y separado de educacion para que un colegio no vea lo que no le toca.
+
+nombre: MindTheContext · Gestion Universitaria
+descripcion: >-
+  Saberes para el gobierno y la gestion de instituciones de educacion superior.
+
+# La variante que sirve. Claude y Codex piden manifiestos distintos y el paquete publica las dos;
+# este catálogo elige una. Un catálogo para Codex es OTRO repositorio con `variante: codex`, no
+# un cambio en el script.
+variante: claude
