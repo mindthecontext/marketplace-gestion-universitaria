@@ -6,6 +6,11 @@
 #
 # Publico, y separado de educacion para que un colegio no vea lo que no le toca.
 
+# El identificador que Claude Code exige: kebab-case, sin espacios. NO es el título — ese
+# vive en `descripcion`, que es lo que el cliente muestra.
+identificador: mindthecontext-gestion-universitaria
+
+# Título legible. Sólo informativo dentro de este archivo.
 nombre: MindTheContext · Gestion Universitaria
 descripcion: >-
   Saberes para el gobierno y la gestion de instituciones de educacion superior.
