@@ -1,0 +1,33 @@
+{
+  "name": "MindTheContext · Gestion Universitaria",
+  "owner": {
+    "name": "MindTheContext"
+  },
+  "metadata": {
+    "description": "Saberes para el gobierno y la gestion de instituciones de educacion superior."
+  },
+  "plugins": [
+    {
+      "name": "finanzas-universitarias",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/mindthecontext/plugin-finanzas-universitarias.git",
+        "path": "claude",
+        "ref": "v2.1.0"
+      },
+      "description": "Lectura financiera de universidades chilenas sobre estados auditados y la planilla FECU, con la procedencia de cada cifra a la vista y lo que la base no sostiene declarado en vez de completado.",
+      "category": "finance"
+    },
+    {
+      "name": "mi-cuenta-mindthecontext",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/mindthecontext/plugin-mi-cuenta.git",
+        "path": "claude",
+        "ref": "v1.1.0"
+      },
+      "description": "Qué identidad reconoce MindTheContext para esta cuenta y qué servicios tiene habilitados, con el diagnóstico de por qué uno no está disponible.",
+      "category": "productivity"
+    }
+  ]
+}
