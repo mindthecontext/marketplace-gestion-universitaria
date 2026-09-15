@@ -13,7 +13,7 @@
         "source": "git-subdir",
         "url": "https://github.com/mindthecontext/plugin-finanzas-universitarias.git",
         "path": "claude",
-        "ref": "v2.2.0"
+        "ref": "v2.2.1"
       },
       "description": "Lectura financiera de universidades chilenas sobre estados auditados y la planilla FECU, con la procedencia de cada cifra a la vista y lo que la base no sostiene declarado en vez de completado.",
       "category": "finance"
