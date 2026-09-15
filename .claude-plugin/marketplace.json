@@ -24,7 +24,7 @@
         "source": "git-subdir",
         "url": "https://github.com/mindthecontext/plugin-mi-cuenta.git",
         "path": "claude",
-        "ref": "v1.1.1"
+        "ref": "v1.2.0"
       },
       "description": "Qué identidad reconoce MindTheContext para esta cuenta y qué servicios tiene habilitados, con el diagnóstico de por qué uno no está disponible.",
       "category": "productivity"
